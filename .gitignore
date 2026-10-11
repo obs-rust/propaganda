@@ -1,0 +1,14 @@
+# Source footage and every intermediate render stay local.
+*.webm
+*.llc
+out/*
+!out/final_4k.mp4
+data/raw_*.json
+data/masks/
+data/detected_*.json
+data/keyframes.assigned.json
+data/label_lock.old.json
+__pycache__/
+*.pt
+fonts/*
+!fonts/Antonio[wght].ttf

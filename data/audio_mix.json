@@ -1,0 +1,13 @@
+{
+ "_doc": "Ending audio splice plan (tools/audio_splice.py -> tools/end_card.py). Times in source seconds.",
+ "cut": 68.535,
+ "splice_from": 35.294,
+ "splice_gain_db": 1.7,
+ "crossfade_s": 0.5,
+ "crossfade_curve": "qsin",
+ "outgoing_lowpass_hz": [
+  12000,
+  900
+ ],
+ "fade_out_s": 2.4
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI vs obs-studio bugs</title>
+<meta name="description" content="AI vs obs-studio bugs: the obs-rust campaign to port OBS Studio to Rust, one crash at a time.">
+<meta property="og:title" content="AI vs obs-studio bugs">
+<meta property="og:description" content="Bugs remaining: 750. The adventure is at github.com/obs-rust.">
+<meta property="og:type" content="video.other">
+<meta property="og:image" content="poster.jpg">
+<meta property="og:video" content="ai-vs-obs-studio-bugs.mp4">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #000;
+    --text: #f2ead5;      /* the warm off-white used for every label in the film */
+    --muted: rgba(242, 234, 213, 0.62);
+    --line: rgba(242, 234, 213, 0.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); }
+  body {
+    font-family: "Antonio", "Arial Narrow", sans-serif;
+    min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { width: 100%; max-width: 1280px; padding: 48px 16px 64px; }
+  h1 {
+    margin: 0 0 28px; text-align: center; font-weight: 600;
+    font-size: clamp(28px, 6vw, 64px); letter-spacing: 0.04em; line-height: 1.05;
+  }
+  h1 span { display: block; color: var(--muted); font-weight: 400; font-size: 0.55em; letter-spacing: 0.3em; margin-bottom: 0.35em; }
+  .frame { position: relative; width: 100%; aspect-ratio: 2 / 1; background: #000; }
+  video { width: 100%; height: 100%; display: block; background: #000; }
+  .status {
+    margin: 40px 0 0; text-align: center;
+    font-size: clamp(20px, 3.4vw, 34px); letter-spacing: 0.16em; font-weight: 600;
+  }
+  .links { margin-top: 14px; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 28px; }
+  a {
+    color: var(--text); text-decoration: none;
+    font-size: clamp(17px, 2.6vw, 24px); letter-spacing: 0.08em;
+    border-bottom: 1px solid var(--line); padding-bottom: 2px;
+  }
+  a:hover, a:focus-visible { border-bottom-color: var(--text); outline: none; }
+  a.quiet { color: var(--muted); font-size: clamp(14px, 2vw, 17px); }
+  footer { margin-top: auto; padding: 24px 16px 32px; color: var(--muted); font-size: 13px; letter-spacing: 0.08em; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span>AI VS</span>obs-studio bugs</h1>
+  <div class="frame">
+    <video controls playsinline preload="metadata" poster="poster.jpg">
+      <source src="ai-vs-obs-studio-bugs.mp4" type="video/mp4">
+    </video>
+  </div>
+  <p class="status">BUGS REMAINING: 750</p>
+  <div class="links">
+    <a href="https://github.com/obs-rust">github.com/obs-rust</a>
+    <a class="quiet" href="https://media.githubusercontent.com/media/obs-rust/propaganda/main/out/final_4k.mp4">download 4K</a>
+  </div>
+</main>
+<footer>Fan edit. Footage: Secret Level, Warhammer 40,000 (Amazon). All rights to their owners.</footer>
+</body>
+</html>

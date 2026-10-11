@@ -1,0 +1,21 @@
+{
+ "_doc": "Hand-picked enemy boxes for the pilot. Coordinates are in 1920x960 tracking space (source is 3840x1920). label_id refers to data/labels.json; swap ids freely.",
+ "video": "marines-fixing-bugs.webm",
+ "shots": [
+  {
+   "name": "horde",
+   "start": 2.035, "end": 6.64,
+   "title": {"text": "obs-studio bugs", "from": 2.3, "to": 4.7},
+   "seed_time": 6.55,
+   "enemies": [
+    {"label_id": 3,  "box": [720, 190, 200, 300]},
+    {"label_id": 8,  "box": [515, 355, 110, 210]},
+    {"label_id": 13, "box": [630, 385, 95, 160]},
+    {"label_id": 16, "box": [1150, 265, 150, 300]},
+    {"label_id": 19, "box": [1320, 245, 170, 280]},
+    {"label_id": 5,  "box": [915, 320, 130, 210]},
+    {"label_id": 14, "box": [385, 235, 140, 330]}
+   ]
+  }
+ ]
+}

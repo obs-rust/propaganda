@@ -1,0 +1,2760 @@
+{
+ "_doc": "Hand-placed (vision) keyframes per enemy; heroes are never keyed. Each key is [time_s, head_x, head_y, figure_height] in work pixels (1920x960 frame) minus the shot's crop_origin. tools/assign_labels.py picks label_id (violence x screen time).",
+ "video": "marines-fixing-bugs.webm",
+ "crop_origin": [
+  300,
+  80
+ ],
+ "work_size": [
+  1920,
+  960
+ ],
+ "shots": [
+  {
+   "name": "intro",
+   "start": 0.0,
+   "end": 2.035,
+   "hold_to_cut": true,
+   "title": {
+    "text": "AI vs",
+    "from": 0.0,
+    "to": 2.035,
+    "y": 0.56,
+    "fade_frames": 9,
+    "fade_out_frames": 6,
+    "beats": [
+     [
+      0.0,
+      "AI"
+     ],
+     [
+      0.75,
+      "AI vs"
+     ]
+    ]
+   },
+   "enemies": []
+  },
+  {
+   "name": "horde",
+   "start": 2.035,
+   "end": 6.64,
+   "hold_to_cut": true,
+   "title": {
+    "text": "obs-studio bugs",
+    "from": 4.035,
+    "to": 6.64,
+    "y": 0.56
+   },
+   "enemies": []
+  },
+  {
+   "name": "melee",
+   "start": 6.64,
+   "end": 13.547,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 6,
+   "enemies": [
+    {
+     "note": "dark cleaver brute: charges in from the left edge, then fights on the left",
+     "keys": [
+      [
+       8.85,
+       60,
+       400,
+       500
+      ],
+      [
+       8.9,
+       160,
+       380,
+       500
+      ],
+      [
+       9.0,
+       440,
+       320,
+       500
+      ],
+      [
+       9.1,
+       460,
+       360,
+       500
+      ],
+      [
+       9.2,
+       200,
+       500,
+       500
+      ],
+      [
+       9.3,
+       120,
+       440,
+       500
+      ],
+      [
+       9.4,
+       330,
+       400,
+       500
+      ],
+      [
+       9.5,
+       360,
+       480,
+       500
+      ],
+      [
+       9.6,
+       80,
+       380,
+       500
+      ],
+      [
+       9.7,
+       240,
+       360,
+       500
+      ],
+      [
+       9.8,
+       300,
+       340,
+       500
+      ],
+      [
+       9.9,
+       200,
+       460,
+       500
+      ]
+     ],
+     "id": "melee/dark-cleaver-brute-charges-in-from-the-left-edge-then-fights"
+    },
+    {
+     "note": "fleshy enemy grabbed then impaled, centre",
+     "keys": [
+      [
+       9.4,
+       840,
+       260,
+       600
+      ],
+      [
+       9.5,
+       780,
+       260,
+       600
+      ],
+      [
+       9.6,
+       480,
+       540,
+       600
+      ],
+      [
+       9.7,
+       660,
+       480,
+       600
+      ],
+      [
+       9.8,
+       760,
+       400,
+       600
+      ],
+      [
+       9.9,
+       840,
+       380,
+       600
+      ]
+     ],
+     "id": "melee/fleshy-enemy-grabbed-then-impaled-centre"
+    },
+    {
+     "note": "bloody-headed enemy held low, left",
+     "keys": [
+      [
+       10.0,
+       720,
+       560,
+       400
+      ],
+      [
+       10.1,
+       600,
+       600,
+       400
+      ],
+      [
+       10.2,
+       580,
+       580,
+       400
+      ],
+      [
+       10.3,
+       540,
+       600,
+       400
+      ],
+      [
+       10.4,
+       460,
+       680,
+       400
+      ],
+      [
+       10.5,
+       360,
+       760,
+       400
+      ],
+      [
+       10.6,
+       380,
+       760,
+       400
+      ]
+     ],
+     "id": "melee/bloody-headed-enemy-held-low-left"
+    },
+    {
+     "note": "exposed-flesh mutant wrestling a marine; head above frame",
+     "keys": [
+      [
+       10.1,
+       1120,
+       40,
+       900
+      ],
+      [
+       10.2,
+       1160,
+       20,
+       900
+      ],
+      [
+       10.3,
+       1120,
+       20,
+       900
+      ],
+      [
+       10.4,
+       1040,
+       20,
+       900
+      ],
+      [
+       10.5,
+       860,
+       20,
+       900
+      ],
+      [
+       10.6,
+       960,
+       20,
+       900
+      ],
+      [
+       10.7,
+       500,
+       40,
+       900
+      ],
+      [
+       10.8,
+       660,
+       400,
+       900
+      ]
+     ],
+     "id": "melee/exposed-flesh-mutant-wrestling-a-marine-head-above-frame"
+    },
+    {
+     "note": "small dying enemy on the ground, bottom left",
+     "keys": [
+      [
+       10.9,
+       300,
+       680,
+       320
+      ],
+      [
+       11.0,
+       360,
+       720,
+       320
+      ],
+      [
+       11.1,
+       380,
+       700,
+       320
+      ],
+      [
+       11.2,
+       440,
+       740,
+       320
+      ],
+      [
+       11.3,
+       460,
+       780,
+       320
+      ],
+      [
+       11.4,
+       540,
+       740,
+       320
+      ],
+      [
+       11.5,
+       640,
+       760,
+       320
+      ]
+     ],
+     "id": "melee/small-dying-enemy-on-the-ground-bottom-left"
+    },
+    {
+     "note": "spiky enemy hauled up over a marine, shot; head bursts ~11.85",
+     "keys": [
+      [
+       10.9,
+       680,
+       40,
+       700
+      ],
+      [
+       11.0,
+       840,
+       40,
+       700
+      ],
+      [
+       11.1,
+       1000,
+       40,
+       700
+      ],
+      [
+       11.2,
+       1120,
+       40,
+       700
+      ],
+      [
+       11.3,
+       1240,
+       40,
+       700
+      ],
+      [
+       11.4,
+       1200,
+       40,
+       700
+      ],
+      [
+       11.5,
+       1240,
+       40,
+       700
+      ],
+      [
+       11.6,
+       1280,
+       60,
+       700
+      ],
+      [
+       11.7,
+       1400,
+       120,
+       700
+      ],
+      [
+       11.8,
+       960,
+       300,
+       700
+      ],
+      [
+       11.85,
+       940,
+       320,
+       700
+      ]
+     ],
+     "fade_out": 2,
+     "id": "melee/spiky-enemy-hauled-up-over-a-marine-shot-head-bursts-11-85"
+    },
+    {
+     "note": "fleshy cultist in the mass at the bottom of the collision",
+     "keys": [
+      [
+       9.0,
+       260,
+       840,
+       420
+      ],
+      [
+       9.1,
+       840,
+       640,
+       420
+      ],
+      [
+       9.2,
+       600,
+       660,
+       420
+      ],
+      [
+       9.3,
+       440,
+       800,
+       420
+      ]
+     ],
+     "id": "melee/fleshy-cultist-in-the-mass-at-the-bottom-of-the-collision"
+    }
+   ]
+  },
+  {
+   "name": "cultist",
+   "start": 13.547,
+   "end": 14.181,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 4,
+   "enemies": [
+    {
+     "note": "hooded cultist beside a marine",
+     "keys": [
+      [
+       13.56,
+       560,
+       150,
+       820
+      ],
+      [
+       13.6,
+       550,
+       140,
+       820
+      ],
+      [
+       13.7,
+       510,
+       160,
+       820
+      ],
+      [
+       13.8,
+       530,
+       100,
+       820
+      ],
+      [
+       13.9,
+       550,
+       60,
+       820
+      ],
+      [
+       14.0,
+       560,
+       80,
+       820
+      ],
+      [
+       14.1,
+       560,
+       60,
+       820
+      ],
+      [
+       14.17,
+       560,
+       60,
+       820
+      ]
+     ],
+     "label": "server crash: stack overflow",
+     "id": "cultist/hooded-cultist-beside-a-marine"
+    }
+   ]
+  },
+  {
+   "name": "longtake",
+   "start": 15.768,
+   "end": 30.416,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 6,
+   "hero_masks": [
+    "pilot",
+    "s19",
+    "s24"
+   ],
+   "enemies": [
+    {
+     "note": "sword cultist right, close behind the walking hero",
+     "keys": [
+      [
+       16.0,
+       1490,
+       430,
+       520
+      ],
+      [
+       16.5,
+       1570,
+       450,
+       520
+      ],
+      [
+       17.0,
+       1400,
+       300,
+       520
+      ],
+      [
+       17.5,
+       1500,
+       340,
+       520
+      ]
+     ],
+     "id": "longtake/sword-cultist-right-close-behind-the-walking-hero"
+    },
+    {
+     "note": "enemy hanging top-left, then runner left",
+     "keys": [
+      [
+       16.0,
+       400,
+       80,
+       420
+      ],
+      [
+       16.5,
+       300,
+       80,
+       420
+      ],
+      [
+       17.0,
+       360,
+       300,
+       420
+      ],
+      [
+       17.4,
+       400,
+       340,
+       420
+      ]
+     ],
+     "id": "longtake/enemy-hanging-top-left-then-runner-left"
+    },
+    {
+     "note": "axe brute bottom right",
+     "keys": [
+      [
+       17.4,
+       1640,
+       660,
+       560
+      ],
+      [
+       17.8,
+       1520,
+       500,
+       560
+      ]
+     ],
+     "id": "longtake/axe-brute-bottom-right"
+    },
+    {
+     "note": "far runner left in the fog",
+     "keys": [
+      [
+       18.4,
+       380,
+       380,
+       360
+      ],
+      [
+       18.7,
+       340,
+       400,
+       360
+      ],
+      [
+       18.9,
+       300,
+       420,
+       360
+      ]
+     ],
+     "id": "longtake/far-runner-left-in-the-fog"
+    },
+    {
+     "note": "runner far left",
+     "keys": [
+      [
+       16.75,
+       184,
+       366,
+       430
+      ],
+      [
+       17.0,
+       449,
+       395,
+       430
+      ],
+      [
+       17.25,
+       173,
+       173,
+       430
+      ]
+     ],
+     "id": "longtake/runner-far-left"
+    },
+    {
+     "note": "horned enemy centre-right",
+     "keys": [
+      [
+       17.0,
+       1342,
+       395,
+       430
+      ],
+      [
+       17.25,
+       1382,
+       328,
+       430
+      ],
+      [
+       17.5,
+       1480,
+       328,
+       430
+      ],
+      [
+       17.75,
+       1342,
+       472,
+       430
+      ]
+     ],
+     "id": "longtake/horned-enemy-centre-right"
+    },
+    {
+     "note": "brute far right",
+     "keys": [
+      [
+       16.75,
+       1567,
+       395,
+       500
+      ],
+      [
+       17.0,
+       1572,
+       490,
+       500
+      ],
+      [
+       17.25,
+       1699,
+       674,
+       500
+      ]
+     ],
+     "id": "longtake/brute-far-right"
+    },
+    {
+     "note": "horned far left",
+     "keys": [
+      [
+       22.25,
+       127,
+       432,
+       360
+      ],
+      [
+       22.5,
+       276,
+       475,
+       360
+      ],
+      [
+       22.75,
+       173,
+       495,
+       360
+      ]
+     ],
+     "id": "longtake/horned-far-left"
+    },
+    {
+     "note": "spiky horned, thrown",
+     "keys": [
+      [
+       22.75,
+       518,
+       553,
+       430
+      ],
+      [
+       23.0,
+       300,
+       432,
+       430
+      ],
+      [
+       23.25,
+       248,
+       288,
+       430
+      ]
+     ],
+     "id": "longtake/spiky-horned-thrown"
+    },
+    {
+     "note": "left runners",
+     "keys": [
+      [
+       24.25,
+       115,
+       130,
+       360
+      ],
+      [
+       24.5,
+       357,
+       144,
+       360
+      ],
+      [
+       24.75,
+       190,
+       130,
+       360
+      ]
+     ],
+     "id": "longtake/left-runners"
+    },
+    {
+     "note": "horned charger right, head bursts",
+     "keys": [
+      [
+       26.0,
+       1814,
+       403,
+       430
+      ],
+      [
+       26.25,
+       1457,
+       403,
+       430
+      ],
+      [
+       26.5,
+       1786,
+       328,
+       430
+      ],
+      [
+       26.75,
+       1682,
+       328,
+       430
+      ],
+      [
+       27.0,
+       1572,
+       328,
+       430
+      ]
+     ],
+     "fade_out": 2,
+     "id": "longtake/horned-charger-right-head-bursts"
+    },
+    {
+     "note": "creature centre",
+     "keys": [
+      [
+       26.75,
+       1106,
+       328,
+       430
+      ],
+      [
+       27.0,
+       1083,
+       444,
+       430
+      ],
+      [
+       27.25,
+       1382,
+       204,
+       430
+      ],
+      [
+       27.5,
+       1106,
+       118,
+       430
+      ]
+     ],
+     "id": "longtake/creature-centre"
+    },
+    {
+     "note": "runner right, cut down",
+     "keys": [
+      [
+       28.0,
+       1757,
+       432,
+       430
+      ],
+      [
+       28.25,
+       1596,
+       418,
+       430
+      ],
+      [
+       28.5,
+       1342,
+       576,
+       430
+      ]
+     ],
+     "fade_out": 2,
+     "id": "longtake/runner-right-cut-down"
+    },
+    {
+     "note": "horned left",
+     "keys": [
+      [
+       28.75,
+       317,
+       452,
+       400
+      ],
+      [
+       29.0,
+       300,
+       323,
+       400
+      ],
+      [
+       29.25,
+       190,
+       222,
+       400
+      ]
+     ],
+     "id": "longtake/horned-left"
+    },
+    {
+     "note": "figure right",
+     "keys": [
+      [
+       29.0,
+       1728,
+       403,
+       400
+      ],
+      [
+       29.25,
+       1716,
+       395,
+       400
+      ],
+      [
+       29.5,
+       1728,
+       403,
+       400
+      ]
+     ],
+     "id": "longtake/figure-right"
+    },
+    {
+     "note": "horned right, late",
+     "keys": [
+      [
+       30.0,
+       1803,
+       115,
+       400
+      ],
+      [
+       30.25,
+       1584,
+       115,
+       400
+      ],
+      [
+       30.4,
+       1555,
+       130,
+       400
+      ]
+     ],
+     "id": "longtake/horned-right-late"
+    },
+    {
+     "note": "leaping cultist left (19 s)",
+     "keys": [
+      [
+       18.83,
+       420,
+       340,
+       430
+      ],
+      [
+       19.0,
+       280,
+       180,
+       430
+      ],
+      [
+       19.17,
+       300,
+       540,
+       430
+      ]
+     ],
+     "id": "longtake/leaping-cultist-left-19-s"
+    },
+    {
+     "note": "caped figure far left",
+     "keys": [
+      [
+       18.5,
+       90,
+       520,
+       400
+      ],
+      [
+       18.83,
+       80,
+       500,
+       400
+      ],
+      [
+       19.0,
+       60,
+       510,
+       400
+      ]
+     ],
+     "id": "longtake/caped-figure-far-left"
+    },
+    {
+     "note": "sword cultist right (19 s)",
+     "keys": [
+      [
+       18.83,
+       1280,
+       480,
+       430
+      ],
+      [
+       19.0,
+       1400,
+       500,
+       430
+      ],
+      [
+       19.17,
+       1560,
+       480,
+       430
+      ],
+      [
+       19.33,
+       1720,
+       440,
+       430
+      ]
+     ],
+     "id": "longtake/sword-cultist-right-19-s"
+    },
+    {
+     "note": "club raiser grappled by hero",
+     "keys": [
+      [
+       19.33,
+       440,
+       580,
+       430
+      ],
+      [
+       19.5,
+       640,
+       480,
+       430
+      ],
+      [
+       19.67,
+       540,
+       520,
+       430
+      ],
+      [
+       19.75,
+       576,
+       452,
+       430
+      ],
+      [
+       20.0,
+       530,
+       553,
+       430
+      ]
+     ],
+     "id": "longtake/club-raiser-grappled-by-hero"
+    },
+    {
+     "note": "hooded runner far right",
+     "keys": [
+      [
+       19.5,
+       1520,
+       440,
+       380
+      ],
+      [
+       19.67,
+       1660,
+       520,
+       380
+      ],
+      [
+       20.0,
+       1624,
+       481,
+       380
+      ],
+      [
+       20.25,
+       1745,
+       279,
+       380
+      ]
+     ],
+     "id": "longtake/hooded-runner-far-right"
+    },
+    {
+     "note": "runner left-mid (17 s)",
+     "keys": [
+      [
+       16.83,
+       500,
+       340,
+       430
+      ],
+      [
+       17.0,
+       460,
+       420,
+       430
+      ],
+      [
+       17.17,
+       360,
+       300,
+       430
+      ]
+     ],
+     "id": "longtake/runner-left-mid-17-s"
+    },
+    {
+     "note": "close brute far left (17 s)",
+     "keys": [
+      [
+       16.83,
+       120,
+       300,
+       600
+      ],
+      [
+       17.0,
+       60,
+       240,
+       600
+      ],
+      [
+       17.17,
+       60,
+       240,
+       600
+      ]
+     ],
+     "id": "longtake/close-brute-far-left-17-s"
+    },
+    {
+     "note": "runner right (17 s)",
+     "keys": [
+      [
+       16.83,
+       1660,
+       440,
+       430
+      ],
+      [
+       17.0,
+       1580,
+       420,
+       430
+      ],
+      [
+       17.17,
+       1740,
+       380,
+       430
+      ]
+     ],
+     "id": "longtake/runner-right-17-s"
+    },
+    {
+     "note": "small figure behind hero (17 s)",
+     "keys": [
+      [
+       16.7,
+       660,
+       460,
+       300
+      ],
+      [
+       16.83,
+       640,
+       460,
+       300
+      ],
+      [
+       16.95,
+       630,
+       460,
+       300
+      ]
+     ],
+     "id": "longtake/small-figure-behind-hero-17-s"
+    },
+    {
+     "note": "left cultist (20 s)",
+     "keys": [
+      [
+       20.0,
+       360,
+       540,
+       430
+      ],
+      [
+       20.17,
+       120,
+       500,
+       430
+      ],
+      [
+       20.3,
+       80,
+       500,
+       430
+      ]
+     ],
+     "id": "longtake/left-cultist-20-s"
+    },
+    {
+     "note": "far right edge (20 s)",
+     "keys": [
+      [
+       19.9,
+       1900,
+       600,
+       430
+      ],
+      [
+       20.0,
+       1900,
+       600,
+       430
+      ],
+      [
+       20.15,
+       1890,
+       600,
+       430
+      ]
+     ],
+     "id": "longtake/far-right-edge-20-s"
+    },
+    {
+     "note": "brute grabbed, head bursts (21 s)",
+     "keys": [
+      [
+       20.5,
+       1469,
+       115,
+       600
+      ],
+      [
+       20.83,
+       1480,
+       300,
+       600
+      ],
+      [
+       21.0,
+       1440,
+       320,
+       600
+      ],
+      [
+       21.17,
+       1320,
+       340,
+       600
+      ],
+      [
+       21.3,
+       1300,
+       360,
+       600
+      ]
+     ],
+     "id": "longtake/brute-grabbed-head-bursts-21-s"
+    },
+    {
+     "note": "far right figure (21 s)",
+     "keys": [
+      [
+       20.9,
+       1740,
+       700,
+       350
+      ],
+      [
+       21.0,
+       1740,
+       700,
+       350
+      ],
+      [
+       21.17,
+       1760,
+       690,
+       350
+      ]
+     ],
+     "id": "longtake/far-right-figure-21-s"
+    },
+    {
+     "note": "far figure in fog (22 s)",
+     "keys": [
+      [
+       21.9,
+       1480,
+       420,
+       350
+      ],
+      [
+       22.0,
+       1480,
+       420,
+       350
+      ],
+      [
+       22.1,
+       1490,
+       420,
+       350
+      ]
+     ],
+     "id": "longtake/far-figure-in-fog-22-s"
+    },
+    {
+     "note": "grappled enemy right (22 s)",
+     "keys": [
+      [
+       22.0,
+       1600,
+       400,
+       430
+      ],
+      [
+       22.17,
+       1700,
+       380,
+       430
+      ],
+      [
+       22.3,
+       1720,
+       380,
+       430
+      ]
+     ],
+     "id": "longtake/grappled-enemy-right-22-s"
+    },
+    {
+     "note": "far left figure (22 s)",
+     "keys": [
+      [
+       22.05,
+       90,
+       420,
+       350
+      ],
+      [
+       22.17,
+       80,
+       420,
+       350
+      ],
+      [
+       22.3,
+       80,
+       420,
+       350
+      ]
+     ],
+     "id": "longtake/far-left-figure-22-s"
+    },
+    {
+     "note": "horned left (23 s)",
+     "keys": [
+      [
+       22.83,
+       240,
+       500,
+       430
+      ],
+      [
+       23.0,
+       280,
+       560,
+       430
+      ],
+      [
+       23.17,
+       300,
+       600,
+       430
+      ]
+     ],
+     "id": "longtake/horned-left-23-s"
+    },
+    {
+     "note": "severed head flying (23 s)",
+     "keys": [
+      [
+       23.0,
+       480,
+       480,
+       200
+      ],
+      [
+       23.17,
+       340,
+       200,
+       200
+      ],
+      [
+       23.3,
+       300,
+       150,
+       200
+      ]
+     ],
+     "id": "longtake/severed-head-flying-23-s"
+    },
+    {
+     "note": "leaping cultist left (25 s)",
+     "keys": [
+      [
+       24.75,
+       220,
+       400,
+       430
+      ],
+      [
+       24.83,
+       200,
+       400,
+       430
+      ],
+      [
+       25.0,
+       160,
+       420,
+       430
+      ]
+     ],
+     "id": "longtake/leaping-cultist-left-25-s"
+    },
+    {
+     "note": "flying head (25 s)",
+     "keys": [
+      [
+       24.83,
+       380,
+       220,
+       200
+      ],
+      [
+       25.0,
+       260,
+       200,
+       200
+      ],
+      [
+       25.15,
+       200,
+       210,
+       200
+      ]
+     ],
+     "id": "longtake/flying-head-25-s"
+    },
+    {
+     "note": "runner right (25 s)",
+     "keys": [
+      [
+       24.83,
+       1660,
+       460,
+       430
+      ],
+      [
+       25.0,
+       1800,
+       320,
+       430
+      ],
+      [
+       25.17,
+       1740,
+       400,
+       430
+      ]
+     ],
+     "id": "longtake/runner-right-25-s"
+    },
+    {
+     "note": "horned charger (25 s)",
+     "keys": [
+      [
+       25.33,
+       1600,
+       380,
+       500
+      ],
+      [
+       25.5,
+       1400,
+       440,
+       500
+      ],
+      [
+       25.67,
+       1280,
+       300,
+       500
+      ]
+     ],
+     "id": "longtake/horned-charger-25-s"
+    },
+    {
+     "note": "far left figure (25 s)",
+     "keys": [
+      [
+       25.17,
+       140,
+       440,
+       350
+      ],
+      [
+       25.33,
+       160,
+       440,
+       350
+      ],
+      [
+       25.5,
+       260,
+       520,
+       350
+      ],
+      [
+       25.67,
+       280,
+       500,
+       350
+      ]
+     ],
+     "id": "longtake/far-left-figure-25-s"
+    },
+    {
+     "note": "far right figure (25 s)",
+     "keys": [
+      [
+       25.5,
+       1640,
+       480,
+       350
+      ],
+      [
+       25.67,
+       1660,
+       440,
+       350
+      ],
+      [
+       25.8,
+       1670,
+       440,
+       350
+      ]
+     ],
+     "id": "longtake/far-right-figure-25-s"
+    },
+    {
+     "note": "horned enemy right of hero (18 s)",
+     "keys": [
+      [
+       17.75,
+       1410,
+       450,
+       430
+      ],
+      [
+       17.83,
+       1425,
+       480,
+       430
+      ],
+      [
+       18.0,
+       1410,
+       570,
+       430
+      ],
+      [
+       18.17,
+       1440,
+       600,
+       430
+      ]
+     ],
+     "id": "longtake/horned-enemy-right-of-hero-18-s"
+    },
+    {
+     "note": "club cultist centre (18.5 s)",
+     "keys": [
+      [
+       18.5,
+       1065,
+       480,
+       430
+      ],
+      [
+       18.67,
+       1110,
+       570,
+       430
+      ],
+      [
+       18.83,
+       1290,
+       600,
+       430
+      ]
+     ],
+     "id": "longtake/club-cultist-centre-18-5-s"
+    },
+    {
+     "note": "far right runner (20.3 s)",
+     "keys": [
+      [
+       20.17,
+       1680,
+       420,
+       380
+      ],
+      [
+       20.33,
+       1770,
+       390,
+       380
+      ],
+      [
+       20.5,
+       1800,
+       390,
+       380
+      ]
+     ],
+     "id": "longtake/far-right-runner-20-3-s"
+    },
+    {
+     "note": "horned far centre (21.5 s)",
+     "keys": [
+      [
+       21.4,
+       1020,
+       300,
+       360
+      ],
+      [
+       21.5,
+       1050,
+       300,
+       360
+      ],
+      [
+       21.67,
+       1380,
+       270,
+       360
+      ]
+     ],
+     "id": "longtake/horned-far-centre-21-5-s"
+    },
+    {
+     "note": "horned bottom-left (23.2 s)",
+     "keys": [
+      [
+       23.0,
+       240,
+       660,
+       430
+      ],
+      [
+       23.17,
+       180,
+       690,
+       430
+      ],
+      [
+       23.33,
+       210,
+       720,
+       430
+      ]
+     ],
+     "id": "longtake/horned-bottom-left-23-2-s"
+    },
+    {
+     "note": "horned left figure (24.5 s)",
+     "keys": [
+      [
+       24.33,
+       300,
+       510,
+       420
+      ],
+      [
+       24.5,
+       240,
+       450,
+       420
+      ],
+      [
+       24.67,
+       270,
+       450,
+       420
+      ]
+     ],
+     "id": "longtake/horned-left-figure-24-5-s"
+    },
+    {
+     "note": "far runner centre-right (26 s)",
+     "keys": [
+      [
+       25.9,
+       1200,
+       420,
+       380
+      ],
+      [
+       26.0,
+       1230,
+       390,
+       380
+      ],
+      [
+       26.17,
+       1320,
+       420,
+       380
+      ],
+      [
+       26.33,
+       1440,
+       450,
+       380
+      ],
+      [
+       26.5,
+       1560,
+       450,
+       380
+      ]
+     ],
+     "id": "longtake/far-runner-centre-right-26-s"
+    },
+    {
+     "note": "far right figure (26.5 s)",
+     "keys": [
+      [
+       26.33,
+       1800,
+       420,
+       380
+      ],
+      [
+       26.5,
+       1800,
+       450,
+       380
+      ],
+      [
+       26.67,
+       1770,
+       450,
+       380
+      ]
+     ],
+     "id": "longtake/far-right-figure-26-5-s"
+    },
+    {
+     "note": "horned charger centre (26.7 s)",
+     "keys": [
+      [
+       26.67,
+       960,
+       120,
+       520
+      ],
+      [
+       26.83,
+       1110,
+       270,
+       520
+      ],
+      [
+       27.0,
+       1410,
+       390,
+       520
+      ]
+     ],
+     "id": "longtake/horned-charger-centre-26-7-s"
+    },
+    {
+     "note": "horned brute right (27 s)",
+     "keys": [
+      [
+       26.83,
+       1680,
+       360,
+       480
+      ],
+      [
+       27.0,
+       1680,
+       300,
+       480
+      ],
+      [
+       27.17,
+       1800,
+       480,
+       480
+      ]
+     ],
+     "id": "longtake/horned-brute-right-27-s"
+    },
+    {
+     "note": "horned enemy centre (27.5 s)",
+     "keys": [
+      [
+       27.33,
+       1260,
+       450,
+       480
+      ],
+      [
+       27.5,
+       1080,
+       390,
+       480
+      ],
+      [
+       27.67,
+       990,
+       360,
+       480
+      ]
+     ],
+     "id": "longtake/horned-enemy-centre-27-5-s"
+    },
+    {
+     "note": "runner right, grabbed (28.5 s)",
+     "keys": [
+      [
+       28.33,
+       1560,
+       450,
+       450
+      ],
+      [
+       28.5,
+       1410,
+       390,
+       450
+      ],
+      [
+       28.67,
+       1500,
+       450,
+       450
+      ]
+     ],
+     "id": "longtake/runner-right-grabbed-28-5-s"
+    },
+    {
+     "note": "left figures (29.3 s)",
+     "keys": [
+      [
+       29.17,
+       180,
+       300,
+       380
+      ],
+      [
+       29.33,
+       180,
+       270,
+       380
+      ],
+      [
+       29.5,
+       240,
+       300,
+       380
+      ]
+     ],
+     "id": "longtake/left-figures-29-3-s"
+    },
+    {
+     "note": "second left figure (29.3 s)",
+     "keys": [
+      [
+       29.17,
+       480,
+       330,
+       380
+      ],
+      [
+       29.33,
+       450,
+       270,
+       380
+      ],
+      [
+       29.5,
+       510,
+       300,
+       380
+      ]
+     ],
+     "id": "longtake/second-left-figure-29-3-s"
+    },
+    {
+     "note": "horned figure behind grapple (21.6 s, user-flagged)",
+     "keys": [
+      [
+       21.45,
+       1050,
+       320,
+       330
+      ],
+      [
+       21.6,
+       1123,
+       356,
+       330
+      ],
+      [
+       21.75,
+       1250,
+       330,
+       330
+      ],
+      [
+       21.85,
+       1380,
+       300,
+       330
+      ]
+     ],
+     "no_merge": true,
+     "id": "longtake/horned-figure-behind-grapple-21-6-s-user-flagged"
+    },
+    {
+     "note": "far right fog figure (22 s, user-flagged)",
+     "keys": [
+      [
+       21.9,
+       1780,
+       360,
+       380
+      ],
+      [
+       22.0,
+       1757,
+       370,
+       380
+      ],
+      [
+       22.15,
+       1680,
+       410,
+       380
+      ],
+      [
+       22.3,
+       1598,
+       454,
+       380
+      ],
+      [
+       22.45,
+       1560,
+       470,
+       380
+      ]
+     ],
+     "no_merge": true,
+     "id": "longtake/far-right-fog-figure-22-s-user-flagged"
+    },
+    {
+     "note": "gun brute, before the cut (29 s, user-flagged)",
+     "keys": [
+      [
+       29.2,
+       600,
+       250,
+       600
+      ],
+      [
+       29.5,
+       625,
+       246,
+       620
+      ],
+      [
+       29.8,
+       640,
+       240,
+       640
+      ],
+      [
+       30.1,
+       650,
+       235,
+       660
+      ],
+      [
+       30.4,
+       655,
+       230,
+       680
+      ]
+     ],
+     "label": "graphics driver crash",
+     "no_merge": true,
+     "id": "longtake/gun-brute-before-the-cut-29-s-user-flagged"
+    }
+   ]
+  },
+  {
+   "name": "late",
+   "start": 30.416,
+   "end": 31.751,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 4,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "spiked enemy right (close-up)",
+     "keys": [
+      [
+       30.5,
+       1653,
+       435,
+       450
+      ],
+      [
+       30.75,
+       1284,
+       291,
+       450
+      ],
+      [
+       31.0,
+       1440,
+       576,
+       450
+      ],
+      [
+       31.7,
+       1498,
+       605,
+       450
+      ]
+     ],
+     "label": "graphics driver crash",
+     "feature": 3,
+     "violence": 5,
+     "violence_manual": true,
+     "id": "late/spiked-enemy-right-close-up"
+    }
+   ]
+  },
+  {
+   "name": "brute",
+   "start": 31.818,
+   "end": 34.95,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 4,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "horned gun brute (close-up)",
+     "keys": [
+      [
+       31.85,
+       1613,
+       86,
+       800
+      ],
+      [
+       32.0,
+       1538,
+       107,
+       800
+      ],
+      [
+       32.25,
+       1572,
+       115,
+       800
+      ],
+      [
+       32.5,
+       1670,
+       69,
+       800
+      ],
+      [
+       33.0,
+       1670,
+       69,
+       800
+      ]
+     ],
+     "label": "graphics driver crash",
+     "feature": 2,
+     "violence": 5,
+     "violence_manual": true,
+     "id": "brute/horned-gun-brute-close-up"
+    },
+    {
+     "note": "spiky blade cultist (close-up, one figure 32.5-34.9 s)",
+     "keys": [
+      [
+       32.5,
+       1094,
+       444,
+       500
+      ],
+      [
+       32.75,
+       1048,
+       444,
+       500
+      ],
+      [
+       33.0,
+       1054,
+       444,
+       500
+      ],
+      [
+       33.75,
+       1025,
+       233,
+       500
+      ],
+      [
+       34.0,
+       1094,
+       230,
+       500
+      ],
+      [
+       34.25,
+       1020,
+       461,
+       500
+      ],
+      [
+       34.5,
+       1227,
+       317,
+       500
+      ],
+      [
+       34.75,
+       1181,
+       193,
+       500
+      ],
+      [
+       34.9,
+       1181,
+       193,
+       500
+      ]
+     ],
+     "feature": 1,
+     "violence": 5,
+     "violence_manual": true,
+     "id": "brute/spiky-blade-cultist-close-up-one-figure-32-5-34-9-s"
+    }
+   ]
+  },
+  {
+   "name": "breath",
+   "start": 34.95,
+   "end": 41.574,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "no_auto": true,
+   "_note": "pensive pause after the battle: URL breathes in on the music swell (36.5-37.2) and is gone before his hand rises to the helmet (~39.3)",
+   "title": {
+    "text": "github.com/obs-rust",
+    "from": 36.5,
+    "to": 41.574,
+    "x": 0.17,
+    "y": 0.3,
+    "scale": 0.55,
+    "fade_in_frames": 22,
+    "fade_frames": 2
+   },
+   "enemies": []
+  },
+  {
+   "name": "tank44",
+   "start": 44.268,
+   "end": 45.936,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 1,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "gatling tank, distant, gun not visible (anchor: midpoint of the two headlights)",
+     "keys": [
+      [
+       44.27,
+       1626,
+       486,
+       130
+      ],
+      [
+       45.93,
+       1626,
+       486,
+       130
+      ]
+     ],
+     "label": "audio stutter",
+     "offset": [
+      0,
+      0
+     ],
+     "id": "tank44/gatling-tank-distant-gun-not-visible-anchor-midpoint-of-the-"
+    }
+   ]
+  },
+  {
+   "name": "tank47",
+   "start": 46.971,
+   "end": 48.15,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 1,
+   "fade_out": 2,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "gatling tank close-up (anchor: midpoint of the two headlights)",
+     "keys": [
+      [
+       46.98,
+       1222,
+       690,
+       500
+      ],
+      [
+       48.14,
+       1222,
+       690,
+       500
+      ]
+     ],
+     "label": "audio stutter",
+     "offset": [
+      0,
+      0
+     ],
+     "id": "tank47/gatling-tank-close-up-anchor-midpoint-of-the-two-headlights"
+    }
+   ]
+  },
+  {
+   "name": "tank0",
+   "start": 59.2,
+   "end": 59.934,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 3,
+   "fade_out": 1,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "gatling tank, distant (anchor: midpoint of the two headlights)",
+     "keys": [
+      [
+       59.2,
+       1215,
+       476,
+       130
+      ],
+      [
+       59.93,
+       1215,
+       476,
+       130
+      ]
+     ],
+     "label": "audio stutter",
+     "offset": [
+      0,
+      0
+     ],
+     "id": "tank0/gatling-tank-distant-anchor-midpoint-of-the-two-headlights"
+    }
+   ]
+  },
+  {
+   "name": "tank1",
+   "start": 59.934,
+   "end": 61.603,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 1,
+   "fade_out": 3,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "gatling tank, zoomed (anchor: midpoint of the two headlights)",
+     "keys": [
+      [
+       59.94,
+       1349,
+       366,
+       420
+      ],
+      [
+       61.55,
+       1349,
+       366,
+       420
+      ]
+     ],
+     "label": "audio stutter",
+     "offset": [
+      0,
+      0
+     ],
+     "id": "tank1/gatling-tank-zoomed-anchor-midpoint-of-the-two-headlights"
+    },
+    {
+     "note": "fast car (anchor: midpoint of headlights, label 10% right)",
+     "keys": [
+      [
+       60.2,
+       570,
+       705,
+       300
+      ],
+      [
+       60.4,
+       488,
+       630,
+       300
+      ],
+      [
+       60.6,
+       458,
+       640,
+       300
+      ],
+      [
+       60.8,
+       578,
+       713,
+       300
+      ],
+      [
+       61.0,
+       773,
+       563,
+       300
+      ],
+      [
+       61.2,
+       900,
+       578,
+       300
+      ],
+      [
+       61.45,
+       950,
+       570,
+       300
+      ]
+     ],
+     "label": "uint8_t overflow",
+     "offset": [
+      0.1,
+      0
+     ],
+     "id": "tank1/fast-car-anchor-midpoint-of-headlights-label-10-right"
+    }
+   ]
+  },
+  {
+   "name": "car",
+   "start": 62.27,
+   "end": 62.737,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 1,
+   "fade_out": 1,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "fast car approaching (anchor: headlights, offset to the rider's head)",
+     "keys": [
+      [
+       62.28,
+       1238,
+       525,
+       300
+      ],
+      [
+       62.4,
+       1208,
+       525,
+       300
+      ],
+      [
+       62.6,
+       1300,
+       480,
+       300
+      ],
+      [
+       62.73,
+       1330,
+       470,
+       300
+      ]
+     ],
+     "label": "uint8_t overflow",
+     "offset": [
+      0.1,
+      -0.11
+     ],
+     "id": "car/fast-car-approaching-anchor-headlights-offset-to-the-rider-s"
+    }
+   ]
+  },
+  {
+   "name": "carboom",
+   "start": 62.737,
+   "end": 64.005,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 1,
+   "fade_out": 1,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "car explodes; rider's heroic impact (anchor: headlight, offset to the head)",
+     "keys": [
+      [
+       62.74,
+       1605,
+       390,
+       300
+      ],
+      [
+       63.0,
+       1635,
+       390,
+       300
+      ],
+      [
+       63.4,
+       1630,
+       390,
+       300
+      ],
+      [
+       63.99,
+       1630,
+       390,
+       300
+      ]
+     ],
+     "label": "uint8_t overflow",
+     "offset": [
+      -0.1,
+      -0.2
+     ],
+     "id": "carboom/car-explodes-rider-s-heroic-impact-anchor-headlight-offset-t"
+    }
+   ]
+  },
+  {
+   "name": "tank2",
+   "start": 66.808,
+   "end": 68.543,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 1,
+   "fade_out": 1,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "gatling tank, side view (FIXED screen position: upper-right third, above the tank)",
+     "keys": [
+      [
+       66.82,
+       1500,
+       330,
+       300
+      ],
+      [
+       68.54,
+       1500,
+       330,
+       300
+      ]
+     ],
+     "label": "audio stutter",
+     "fixed": true,
+     "id": "tank2/gatling-tank-side-view-fixed-screen-position-upper-right-thi"
+    }
+   ]
+  },
+  {
+   "name": "spiky",
+   "start": 68.71,
+   "end": 72.0,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 4,
+   "fade_out": 6,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "spiky baddie vs marine (FIXED at the barycentre of the fight)",
+     "keys": [
+      [
+       68.72,
+       1392,
+       442,
+       500
+      ],
+      [
+       71.6,
+       1392,
+       442,
+       500
+      ]
+     ],
+     "label": "anti ai policy",
+     "id": "spiky/spiky-baddie-vs-marine-fixed-at-the-barycentre-of-the-fight"
+    }
+   ]
+  },
+  {
+   "name": "grenade",
+   "start": 72.6,
+   "end": 73.6,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 2,
+   "fade_out": 3,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "hand with grenade (labelled before the grenade shows)",
+     "keys": [
+      [
+       72.62,
+       1260,
+       660,
+       600
+      ],
+      [
+       72.85,
+       1300,
+       620,
+       600
+      ],
+      [
+       73.1,
+       1370,
+       575,
+       600
+      ],
+      [
+       73.45,
+       1390,
+       568,
+       600
+      ]
+     ],
+     "label": "unit test",
+     "smooth": 4.0,
+     "id": "grenade/hand-with-grenade-labelled-before-the-grenade-shows"
+    }
+   ]
+  },
+  {
+   "name": "charge",
+   "start": 83.401,
+   "end": 89.06,
+   "crop_origin": [
+    0,
+    0
+   ],
+   "fade_in": 6,
+   "fade_out": 8,
+   "no_auto": true,
+   "enemies": [
+    {
+     "note": "charge on the gatling tank (anchor: the big hull spike, label just left of the charge)",
+     "keys": [
+      [
+       84.0,
+       1200,
+       380,
+       500
+      ],
+      [
+       84.5,
+       1200,
+       380,
+       500
+      ],
+      [
+       85.0,
+       1200,
+       380,
+       500
+      ]
+     ],
+     "label": "e2e tests",
+     "offset": [
+      -0.075,
+      -0.08
+     ],
+     "id": "charge/charge-on-the-gatling-tank-anchor-the-big-hull-spike-label-j"
+    },
+    {
+     "note": "chained sarcophagus dragged by the marine (two-point anchor: chain hand, then the lid's lower trim)",
+     "keys": [
+      [
+       85.3,
+       0,
+       0,
+       0
+      ]
+     ],
+     "label": "Address Sanitizer",
+     "axis": [
+      [
+       85.3,
+       965,
+       730,
+       1375,
+       730
+      ],
+      [
+       86.0,
+       935,
+       850,
+       1345,
+       850
+      ],
+      [
+       86.5,
+       845,
+       880,
+       1255,
+       880
+      ],
+      [
+       87.0,
+       965,
+       880,
+       1375,
+       880
+      ],
+      [
+       87.5,
+       1200,
+       945,
+       1510,
+       955
+      ],
+      [
+       87.75,
+       1150,
+       905,
+       1450,
+       918
+      ],
+      [
+       88.0,
+       1020,
+       900,
+       1400,
+       918
+      ],
+      [
+       88.25,
+       975,
+       850,
+       1400,
+       870
+      ],
+      [
+       88.5,
+       950,
+       805,
+       1385,
+       826
+      ],
+      [
+       88.75,
+       870,
+       765,
+       1340,
+       787
+      ],
+      [
+       89.0,
+       770,
+       740,
+       1300,
+       760
+      ],
+      [
+       89.06,
+       760,
+       738,
+       1295,
+       758
+      ]
+     ],
+     "fade_out": 1,
+     "id": "charge/chained-sarcophagus-dragged-by-the-marine-two-point-anchor-c"
+    }
+   ]
+  }
+ ]
+}
