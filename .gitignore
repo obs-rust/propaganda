@@ -12,3 +12,4 @@ __pycache__/
 *.pt
 fonts/*
 !fonts/Antonio[wght].ttf
+archive/

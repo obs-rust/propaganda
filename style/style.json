@@ -1,0 +1,62 @@
+{
+  "_doc": "AI-vs house style, extracted from tools/render.py, tools/end_card.py and data/audio_mix.json (commit a6962c7). Pixel values are at a 46px label font and scale with size. Reference frame: 3840x1920 @ 29.97 fps.",
+  "name": "AI vs obs-studio bugs",
+  "font": {"family": "Antonio", "file": "fonts/Antonio[wght].ttf", "weight": 600, "license": "SIL OFL 1.1"},
+  "text_rgb": "#F2EAD5",
+  "shadow_stack": [
+    {"x": 0, "y": 0, "blur": 2,  "rgba": [0, 0, 0, 0.95]},
+    {"x": 2, "y": 2, "blur": 0,  "rgba": [0, 0, 0, 0.85]},
+    {"x": 3, "y": 4, "blur": 8,  "rgba": [0, 0, 0, 0.75]},
+    {"x": 0, "y": 0, "blur": 18, "rgba": [0, 0, 0, 0.60]},
+    {"x": 0, "y": 0, "blur": 36, "rgba": [0, 0, 0, 0.30]}
+  ],
+  "css_text_shadow": "0 0 2px rgba(0,0,0,.95), 2px 2px 0 rgba(0,0,0,.85), 3px 4px 8px rgba(0,0,0,.75), 0 0 18px rgba(0,0,0,.6), 0 0 36px rgba(0,0,0,.3)",
+  "labels": {
+    "label_scale": 2.0,
+    "size_range_far_near": [0.85, 1.3],
+    "figure_px_range": [190, 760],
+    "edge_margin_px": 40,
+    "min_frames": 15,
+    "axis_fill": 0.9,
+    "smoothing": {"spline_lambda": 40, "ema_tau_frames": 3, "draw_tau_frames": 4.0, "path_sigma_frames": 4},
+    "occlusion": {"mode": "fade", "hero_cover_threshold": 0.3, "vis_tau_frames": 2.5},
+    "rules": [
+      "Heroes are never labelled.",
+      "One label per baddie, locked by stable ID (data/label_lock.json); never reshuffle.",
+      "Worst bugs go to the most violent, longest-on-screen baddies (violence^2 x duration).",
+      "Anchor to a stable feature (head, neck, muzzle, headlights) with an offset, not the box centre.",
+      "Labels fade behind heroes as a whole; letters are never cut."
+    ]
+  },
+  "titles": {
+    "base_px": "120 * label_scale (at 4K)",
+    "fade_frames": 8,
+    "intro": [
+      {"text": "AI", "at": 0.0},
+      {"text": "AI vs", "at": 0.75, "until": 2.035, "fade_in_frames": 9, "fade_out_frames": 6, "y": 0.56},
+      {"text": "obs-studio bugs", "at": 4.035, "until": 6.64, "y": 0.56}
+    ]
+  },
+  "end_card": {
+    "cut_on": "the biggest action beat (here 68.535 s), hard cut to black",
+    "black_hold_s": 1.2,
+    "card_s": 6.0,
+    "text_fade_out_s": 0.9,
+    "background": "#000000, no vignette, no grain, no shadow",
+    "line1": {"text": "BUGS REMAINING: 750", "size": 0.62, "tracking_em": 0.12, "y": 0.44},
+    "line2": {"text": "github.com/obs-rust", "size": 0.52, "tracking_em": 0.08, "y_below_line1_em": 1.55}
+  },
+  "audio": {
+    "method": "splice post-battle score under the end card",
+    "splice_gain_db": 1.7,
+    "crossfade_s": 0.5,
+    "crossfade_curve": "qsin",
+    "outgoing_lowpass_hz": [12000, 900],
+    "fade_out_s": 2.4
+  },
+  "delivery": {
+    "previews": "720p only until approved",
+    "master": "3840x1920 H.264 + AAC",
+    "web": "1080p H.264 CRF 21, +faststart"
+  }
+}
